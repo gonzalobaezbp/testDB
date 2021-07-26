@@ -5,7 +5,7 @@ mariadb.createPool({
     port: '3307',
     user: 'root',
     password: '123123',
-    database: 'MOVIES'
+    database: 'DB_TEST'
 });
 
 async function getConnection() {

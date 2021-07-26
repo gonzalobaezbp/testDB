@@ -7,7 +7,7 @@ const pool = require('./database');
 app.get('/test', async (req, res) => {
     try {
         const myConnection = await pool.getConnection();
-        const consulta = 'SELECT * FROM TEST_MOVIES';
+        const consulta = 'SELECT * FROM PERSON_TEST';
         const result = await myConnection.query(consulta);
         res.status(200).json(result);
     } catch (error) {
@@ -16,5 +16,5 @@ app.get('/test', async (req, res) => {
 });
 
 app.listen(2000, () => {
-    console.log(2000);
+    console.log('Listening:',2000);
 });
