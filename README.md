@@ -13,11 +13,7 @@ npm install
 
 _Instalar Docker_
 
-* [Intalación de Docker en UB```
-83
-​
-84
-```UNTU](https://docs.docker.com/engine/install/ubuntu/)
+* [Intalación de Docker en UBUNTU](https://docs.docker.com/engine/install/ubuntu/)
 
 
 ## MariaDB (Docker)
