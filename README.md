@@ -42,7 +42,7 @@ _Copiamos y ejecutamos el siguiente script para crear la base de datos llamada D
 ```
 CREATE DATABASE DB_TEST;
 
-USE MOVIES;
+USE DB_TEST;
 
 CREATE TABLE PERSON_TEST(
     ID_MOVIE INT PRIMARY KEY NOT NULL,
