@@ -37,7 +37,7 @@ _Ahora ya dentro del contenedor, ingresamos al gestor de base de datos MariaDB:_
 mysql -u root -p123123
 ```
 
-_Copiamos y ejecutamos el siguiente script para crear la base de datos llamada @@@@ y una tabla llamada @@@@ e ingresamos unos datos de prueba:_
+_Copiamos y ejecutamos el siguiente script para crear la base de datos llamada DB_TEST y una tabla llamada PERSON_TEST e ingresamos unos datos de prueba:_
 
 ```
 CREATE DATABASE DB_TEST;
